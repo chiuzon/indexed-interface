@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+	body {
+		@apply bg-background-image bg-center bg-cover bg-clip-border bg-fixed;
+		@apply text-white;
+	}
+}
