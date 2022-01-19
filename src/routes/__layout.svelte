@@ -22,8 +22,11 @@
 
     </div>
     <div class="flex gap-2">
-       <div class="font-semibold text-lg">
-           Network
+       <div class="group font-semibold inline-block text-lg relative">
+           <button>Network</button>
+           <div class="transition-all duration-300 ease-out origin-top absolute z-10 p-1 bg-foreground mt-4 group-hover:block delay-100 -scale-y-0 opacity-0 group-hover:scale-y-100 group-hover:opacity-100">
+                <button>Network</button>
+           </div>
        </div>
 
        <div class="font-semibold text-lg">
