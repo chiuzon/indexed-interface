@@ -8,17 +8,17 @@
         Indexed
     </div>
     <div class="flex flex-1 justify-around">
-        <div class="font-semibold text-lg flex-1 flex justify-center uppercase">
+        <a href="/" class="font-semibold text-lg flex-1 flex justify-center uppercase hover:text-blue-300">
             Products
-        </div>
+        </a>
 
-        <div class="font-semibold text-lg flex-1 flex justify-center uppercase">
+        <a href="/" class="font-semibold text-lg flex-1 flex justify-center uppercase hover:text-blue-300">
          Portofolio
-        </div>
+        </a>
 
-        <div class="font-semibold text-lg flex-1 flex justify-center uppercase">
+        <a href="/" class="font-semibold text-lg flex-1 flex justify-center uppercase hover:text-blue-300">
             Vote
-        </div>
+        </a>
 
     </div>
     <div class="flex gap-2">
