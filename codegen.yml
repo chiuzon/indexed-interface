@@ -1,6 +1,0 @@
-schema: "https://api.thegraph.com/subgraphs/name/indexed-finance/indexed"
-# schema: "https://api.thegraph.com/subgraphs/name/uniswap/uniswap-v2"
-generates:
-  ./src/indexed-types.d.ts:
-    plugins:
-      - typescript
