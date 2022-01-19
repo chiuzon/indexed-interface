@@ -1,8 +1,10 @@
+import { NetworksEnum } from './types';
+
 export const SUPPORTED_NETWORKS = {
-	1: {
+	[NetworksEnum.ETHEREUM]: {
 		name: 'Ethereum'
 	},
-	4: {
+	[NetworksEnum.ETHEREUM_RINKEBY]: {
 		name: 'Testnet Rinkeby'
 	}
 };
