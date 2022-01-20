@@ -1,14 +1,13 @@
 <script lang="ts">
     import { INDEX_POOLS } from "$lib/constants";
+    import { findIndexPoolById } from "$lib/helpers/constants.helper";
 
     export let id = ''
 
-    const indexPool = Object.entries(INDEX_POOLS).find((entry) => {
-        return Object.keys(entry[1]).includes(id)
-    })[1][id]
+    const indexPool = findIndexPoolById(id)
 
-    $: poolName = indexPool.name || ''
-    $: poolDescription = indexPool.description || ''
+    $: poolName = indexPool?.name ?? ''
+    $: poolDescription = indexPool?.description ?? ''
 </script>
 
 <div class="panel">
