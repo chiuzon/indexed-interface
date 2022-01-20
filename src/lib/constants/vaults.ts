@@ -1,4 +1,5 @@
-import { NetworksEnum, IVaults } from './types';
+import { NetworksEnum } from './types';
+import type { IVaults } from './types';
 
 export const VAULTS: IVaults = {
 	[NetworksEnum.ETHEREUM]: {
