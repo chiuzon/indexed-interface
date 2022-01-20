@@ -1,5 +1,13 @@
 import { NetworksEnum } from './types';
-
+/**
+ * indexPools = {
+ *  network: {
+ *   index-id: "needs to be unique" : {
+ *
+ *   }
+ *  }
+ * }
+ */
 export const indexPools = {
 	[NetworksEnum.ETHEREUM]: {
 		'degen-index': {
