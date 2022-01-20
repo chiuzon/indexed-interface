@@ -8,3 +8,13 @@
 		@apply text-white;
 	}
 }
+
+@layer components {
+	.panel {
+		@apply flex flex-col w-1/4;
+		@apply border-2 border-neutral-700 hover:border-green-500;
+		@apply rounded-t-md;
+		@apply shadow-black hover:shadow-md;
+		@apply select-none cursor-pointer;
+	}
+}
