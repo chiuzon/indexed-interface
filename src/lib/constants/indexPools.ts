@@ -25,3 +25,9 @@ export const INDEX_POOLS: IIndexPools = {
 		}
 	}
 };
+
+export const FEATURED_INDEX_POOLS = [
+	'degen-index',
+	'nft-platform-index',
+	'oracle-top-5-tokens-index'
+];
