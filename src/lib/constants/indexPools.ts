@@ -1,14 +1,6 @@
-import { NetworksEnum } from './types';
-/**
- * indexPools = {
- *  network: {
- *   index-id: "needs to be unique" : {
- *
- *   }
- *  }
- * }
- */
-export const indexPools = {
+import { NetworksEnum, IIndexPools } from './types';
+
+export const indexPools: IIndexPools = {
 	[NetworksEnum.ETHEREUM]: {
 		'degen-index': {
 			icon: '',
