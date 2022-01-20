@@ -1,1 +1,1 @@
-background:
+foreground: #141414

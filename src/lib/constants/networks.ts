@@ -2,9 +2,11 @@ import { NetworksEnum } from './types';
 
 export const SUPPORTED_NETWORKS = {
 	[NetworksEnum.ETHEREUM]: {
-		name: 'Ethereum'
+		name: 'Ethereum',
+		icon: ''
 	},
 	[NetworksEnum.ETHEREUM_RINKEBY]: {
-		name: 'Testnet Rinkeby'
+		name: 'Testnet Rinkeby',
+		icon: ''
 	}
 };

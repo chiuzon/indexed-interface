@@ -1,4 +1,5 @@
-import { NetworksEnum, IIndexPools } from './types';
+import type { IIndexPools } from './types';
+import { NetworksEnum } from './types';
 
 export const INDEX_POOLS: IIndexPools = {
 	[NetworksEnum.ETHEREUM]: {
