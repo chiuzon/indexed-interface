@@ -1,6 +1,6 @@
-import { NetworksEnum } from './types';
+import { NetworksEnum, IVaults } from './types';
 
-export const vaults = {
+export const VAULTS: IVaults = {
 	[NetworksEnum.ETHEREUM]: {
 		'sushi-nirn-vault': {
 			icon: '',

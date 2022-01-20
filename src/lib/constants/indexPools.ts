@@ -1,6 +1,6 @@
 import { NetworksEnum, IIndexPools } from './types';
 
-export const indexPools: IIndexPools = {
+export const INDEX_POOLS: IIndexPools = {
 	[NetworksEnum.ETHEREUM]: {
 		'degen-index': {
 			icon: '',

@@ -13,3 +13,13 @@ export interface IIndexPools {
 		};
 	};
 }
+
+export interface IVaults {
+	[key: number]: {
+		[key: string]: {
+			icon: string;
+			name: string;
+			address: string;
+		};
+	};
+}
