@@ -4,7 +4,7 @@ import '$lib/styles/app.css';
 
 </script>
 
-<div class=" bg-zinc-900 border-b-white border-b w-full flex justify-center items-center px-6 py-3 fixed z-40">
+<div class=" bg-zinc-900 border-b-white border-b w-full flex justify-center items-center px-6 py-3 fixed z-20">
     <div class="pl-5 font-bold text-lg uppercase">
         Indexed
     </div>

@@ -1,8 +1,7 @@
 <script lang="ts">
     import IndexPoolComponent from "$lib/components/IndexPoolComponent.svelte";
     import { FEATURED_INDEX_POOLS, INDEX_POOLS } from "$lib/constants";
-
-    
+     
 </script>
 
 
