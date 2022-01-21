@@ -1,9 +1,10 @@
 <script lang="ts">
-    import '$lib/styles/app.css';
+    import Dropdown from '$lib/components/Generics/Dropdown.svelte';
+import '$lib/styles/app.css';
 
 </script>
 
-<div class=" bg-zinc-900 border-b-white border-b w-full flex justify-center items-center px-6 py-3">
+<div class=" bg-zinc-900 border-b-white border-b w-full flex justify-center items-center px-6 py-3 fixed z-40">
     <div class="pl-5 font-bold text-lg uppercase">
         Indexed
     </div>
@@ -22,12 +23,18 @@
 
     </div>
     <div class="flex gap-2">
-       <div class="group font-semibold inline-block text-lg relative">
+        <Dropdown>
+            <button slot="dropdown-head">Network</button>
+            <div slot="dropdown-body">
+                 <button>Network</button>
+            </div>
+        </Dropdown>
+       <!-- <div class="group font-semibold inline-block text-lg relative">
            <button>Network</button>
            <div class="transition-all duration-300 ease-out origin-top absolute z-10 p-1 bg-foreground mt-4 group-hover:block delay-100 -scale-y-0 opacity-0 group-hover:scale-y-100 group-hover:opacity-100">
                 <button>Network</button>
            </div>
-       </div>
+       </div> -->
 
        <div class="font-semibold text-lg">
            Wallet
